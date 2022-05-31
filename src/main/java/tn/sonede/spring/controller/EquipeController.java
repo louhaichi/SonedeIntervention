@@ -8,7 +8,7 @@ import tn.sonede.spring.interfaces.EquipeInterface;
 
 import java.util.List;
 
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/equipe")
 public class EquipeController {

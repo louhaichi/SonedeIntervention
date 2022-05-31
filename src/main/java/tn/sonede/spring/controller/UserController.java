@@ -71,7 +71,7 @@ public class UserController {
 		User UX = Userservice.getUser(id);
 		
 	
-		UX.setImage(img);
+	//	UX.setImage(img);
 		User updateUser = Userservice.updateUser(UX);
 		return ResponseEntity.ok(updateUser);
 	}

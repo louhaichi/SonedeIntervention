@@ -7,7 +7,7 @@ import tn.sonede.spring.entity.Intervention;
 import tn.sonede.spring.interfaces.InterventionInterface;
 
 import java.util.List;
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/intervention")
 public class InterventionController {

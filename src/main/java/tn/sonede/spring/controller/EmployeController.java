@@ -8,6 +8,7 @@ import tn.sonede.spring.interfaces.EmployeInterface;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/employe")
 public class EmployeController {

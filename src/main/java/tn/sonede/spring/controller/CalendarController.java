@@ -9,8 +9,7 @@ import tn.sonede.spring.interfaces.CalendarInterface;
 import tn.sonede.spring.interfaces.InterventionInterface;
 
 import java.util.List;
-
-@CrossOrigin("*")
+@CrossOrigin(origins = "*", maxAge = 3600)
 @Validated
 @RestController
 @RequestMapping("/calendar")

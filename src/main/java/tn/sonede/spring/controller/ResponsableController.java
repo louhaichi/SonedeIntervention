@@ -7,7 +7,7 @@ import tn.sonede.spring.entity.Responsable;
 import tn.sonede.spring.interfaces.ResponsableInterface;
 
 import java.util.List;
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/responsable")
 public class ResponsableController {
